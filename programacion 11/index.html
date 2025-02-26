@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas Escolares</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gestor de Tareas Escolares</h1>
+    </header>
+
+    <main>
+        <section id="task-form-section">
+            <h2>Agregar Nueva Tarea</h2>
+            <form id="task-form">
+                <input type="text" id="task-title" placeholder="Título de la tarea" required>
+                <textarea id="task-desc" placeholder="Descripción"></textarea>
+                <input type="date" id="task-date" required>
+                <button type="submit">Agregar Tarea</button>
+            </form>
+        </section>
+
+        <section id="task-list-section">
+            <h2>Lista de Tareas</h2>
+            <ul id="task-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gestor de Tareas | Proyecto Escolar</p>
+    </footer>
+
+    <script src="scritp.js"></script>
+</body>
+</html>
